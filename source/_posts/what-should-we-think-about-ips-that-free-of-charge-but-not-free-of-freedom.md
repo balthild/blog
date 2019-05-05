@@ -10,9 +10,9 @@ tags:
 
 ----
 
-首先要定义一个概念：四项基本自由。它们是：使用、复制、修改、再分发。严谨的定义请看[什么是自由软件？ - GNU工程 - 自由软件基金会](https://link.zhihu.com/?target=https%3A//www.gnu.org/philosophy/free-sw.zh-cn.html)。
+首先要定义一个概念：四项基本自由。它们是：使用、复制、修改、再分发。严谨的定义请看[什么是自由软件？ - GNU工程 - 自由软件基金会](https://www.gnu.org/philosophy/free-sw.zh-cn.html)。
 
-一项文化产品的授权协议，只要四项基本自由中的任意一项没有被依照相应准则授予用户，即不属于自由文化协议（参考 CC 给出的定义 [Understanding Free Cultural Works - Creative Commons](https://link.zhihu.com/?target=https%3A//creativecommons.org/share-your-work/public-domain/freeworks)）。东方这个东西嘛，它四项都没有完全授予（禁止商业使用），显然它不是自由文化协议。
+一项文化产品的授权协议，只要四项基本自由中的任意一项没有被依照相应准则授予用户，即不属于自由文化协议（参考 CC 给出的定义 [Understanding Free Cultural Works - Creative Commons](https://creativecommons.org/share-your-work/public-domain/freeworks)）。东方这个东西嘛，它四项都没有完全授予（禁止商业使用），显然它不是自由文化协议。
 
 相应地，像 GFDL、CC BY、CC BY-SA、CC0 等协议，则属于自由文化协议（注意，CC BY-ND 和 CC BY-NC-SA 就不是自由的）。
 

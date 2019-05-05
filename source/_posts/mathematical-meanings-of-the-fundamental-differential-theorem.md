@@ -4,7 +4,9 @@ date: 2019-01-12 01:24:00
 tags:
 ---
 
-注：本文说的**不是**<u>微积分基本定理</u>（牛顿—莱布尼兹公式）。
+注 1：本文说的**不是**<u>微积分基本定理</u>（牛顿—莱布尼兹公式）。
+
+注 2：本文说的**不是**<u>拉格朗日中值定理</u>，尽管它有时也被称为微分基本定理。
 
 在《高等数学》中，有这样一条定理：
 
@@ -26,11 +28,11 @@ tags:
 
 考虑可微二元函数 $f(x,y)$ 的<u>全微分</u> $\mathrm{d}z$ 的表达式：
 
-<pre class="tex">
+$$
 \mathrm{d}z
 = \frac{\partial f}{\partial x} \mathrm{d}x
 + \frac{\partial f}{\partial y} \mathrm{d}y
-</pre>
+$$
 
 我们已经知道 $\mathrm{d}z$ 有 $A\cdot\mathrm{d}x + B\cdot\mathrm{d}y$ 的形式，但为什么会有 $A=\frac{\partial f}{\partial x}, B=\frac{\partial f}{\partial y}$ 呢？当然，这可以用导数的定义来证明，但抽象的符号表达无法让人直观地感受到「为什么」。
 
