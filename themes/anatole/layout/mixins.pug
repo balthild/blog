@@ -10,8 +10,13 @@ mixin make_post(item, is_detail)
 			.post-content!= item.content
 		else
 			.post-content
-				- var summary = item.summary || item.content
-				p!= truncate(strip_html(summary), {length: 160})
+				- if (item.summary) {
+					p!= strip_html(item.summary)
+				- } else {
+					| !{summarize(item.content)}
+				- }
+				p.read-more
+					a(href= url_for(item.path))= "阅读全文"
 		.post-footer: .meta
 			.info
 				i.fa.fa-sun-o
@@ -60,7 +65,7 @@ mixin postList()
 					| </ul><div class="listing-title">
 					!= year
 					| </div><ul class="listing">
-			
+
 			.listing-item
 				.listing-post
 					a(href= url_for(item.path), title= item.title)= item.title

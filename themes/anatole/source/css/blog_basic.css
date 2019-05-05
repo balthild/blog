@@ -7,6 +7,18 @@
   margin-left: 0.125em;
 }
 
+.post-content .read-more {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.post-content .read-more a {
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0.3em 1.2em 0.4em;
+  border: 2px solid;
+  border-radius: 2px;
+}
+
 .post-content .tip {
   position: relative;
   margin: 2em 0;
