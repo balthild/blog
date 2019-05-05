@@ -1,3 +1,12 @@
+.post-content u {
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.post-content u + u {
+  margin-left: 0.125em;
+}
+
 .post-content .tip {
   position: relative;
   margin: 2em 0;
