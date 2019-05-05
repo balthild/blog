@@ -184,7 +184,7 @@ a:hover, a:active {
 }
 .sidebar .logo-title {
   text-align: center;
-  padding-top: 240px;
+  padding-top: 40px;
 }
 .sidebar .logo-title .description {
   font-size: 14px;
@@ -199,7 +199,7 @@ a:hover, a:active {
   font-weight: bold;
   letter-spacing: 2px;
   line-height: 1;
-  margin: 0;
+  margin: 1em 0 0;
 }
 .sidebar .logo-title .title a {
   text-decoration: none;
