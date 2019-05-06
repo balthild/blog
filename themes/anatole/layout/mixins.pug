@@ -19,8 +19,9 @@ mixin make_post(item, is_detail)
 					a(href= url_for(item.path))= "阅读全文"
 		.post-footer: .meta
 			.info
-				i.fa.fa-sun-o
-				span.date= date(item.date, 'YYYY-MM-DD')
+				if item.layout !== 'page'
+					i.fa.fa-sun-o
+					span.date= date(item.date, 'YYYY-MM-DD')
 				if theme.duoshuo || theme.disqus
 					i.fa.fa-comment-o
 					a(href= url_for(item.path + "#comments"))= __('Comments')

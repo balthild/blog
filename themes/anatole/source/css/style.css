@@ -6,7 +6,10 @@ html {
 
 body {
   color: rgba(0, 0, 0, 0.7);
-  font-family: 'PingHei', 'PingFang SC', Helvetica Neue, 'Work Sans', 'Hiragino Sans GB', 'Microsoft YaHei', SimSun, sans-serif;
+  font-family:
+    'Roboto', 'San Francisco', 'Helvetica Neue', 'Segoe UI',
+    'Noto Sans CJK SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    sans-serif;
   font-size: 15px;
   width: 100%;
   margin: 0 auto 30px auto;
@@ -197,7 +200,6 @@ a:hover, a:active {
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: bold;
-  letter-spacing: 2px;
   line-height: 1;
   margin: 1em 0 0;
 }
@@ -235,12 +237,10 @@ a:hover, a:active {
 .post .post-title h1 {
   text-transform: uppercase;
   font-size: 30px;
-  letter-spacing: 5px;
   line-height: 1;
 }
 .post .post-title h2 {
   text-transform: uppercase;
-  letter-spacing: 1px;
   font-size: 28px;
   line-height: 1;
   font-weight: 600;
@@ -248,7 +248,6 @@ a:hover, a:active {
 }
 .post .post-title h3 {
   text-transform: uppercase;
-  letter-spacing: 1px;
   line-height: 1;
   font-weight: 600;
   color: #464646;
@@ -257,15 +256,15 @@ a:hover, a:active {
 }
 .post .post-title a {
   text-decoration: none;
-  letter-spacing: 1px;
   color: #5f5f5f;
+  line-height: 1.5;
+  border-bottom: 2px solid transparent;
 }
 .post .post-title a:hover {
-  text-decoration: underline;
+  border-bottom-color: #5f5f5f;
 }
 .post .post-content a {
   text-decoration: none;
-  letter-spacing: 1px;
   color: #4786D6;
 }
 .post .post-content a:hover {
