@@ -1,7 +1,7 @@
-const { safeLoad } = require('js-yaml');
-const { parse, stringify } = require('css');
+const yaml = require('js-yaml');
+const CleanCSS = require('clean-css');
 
-const css = stringify(parse(`
+const css = new CleanCSS().minify(`
 .bookmarks {
     list-style: none;
     padding: 0;
@@ -55,10 +55,10 @@ const css = stringify(parse(`
         width: 100%;
     }
 }
-`), { compress: true });
+`);
 
 hexo.extend.tag.register('bookmarks', function (args, content) {
-    const doc = safeLoad(content);
+    const doc = yaml.safeLoad(content);
 
     const items = doc.map(({ name, description, url, avatar }) => `
         <li>
