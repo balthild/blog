@@ -55,7 +55,7 @@ const css = new CleanCSS().minify(`
         width: 100%;
     }
 }
-`);
+`).styles;
 
 hexo.extend.tag.register('bookmarks', function (args, content) {
     const doc = yaml.safeLoad(content);
