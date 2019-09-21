@@ -18,7 +18,7 @@ title: Friends
 - name: Awoer
   description: 是超单纯的 Aower (
   url: http://blog.awoer.com/
-  avatar: https://cn.gravatar.com/avatar/?s=128&d=mm
+  avatar: https://avatars1.githubusercontent.com/u/13173755?s=128&v=4
 
 - name: DIYgod
   description: 是前端 dalao
