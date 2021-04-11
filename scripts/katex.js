@@ -15,7 +15,7 @@ hexo.extend.filter.register("after_render:html", function (result, data) {
             integrity: "sha256-pJEAs/zQ2ihefvJlQEQkjHX+H1br8xxfQ2RXWjJtZmE=",
             crossorigin: "anonymous",
         });
-        
+
         return result.replace("</head>", `${linkTag}</head>`);
     }
 
@@ -23,7 +23,8 @@ hexo.extend.filter.register("after_render:html", function (result, data) {
 });
 
 hexo.extend.filter.register("after_post_render", function (data) {
-    const doc = new JSDOM(data.content).window.document;
+    const html = `<!DOCTYPE html><html><body>${data.content}</body></html>`
+    const doc = new JSDOM(html).window.document;
 
     const inlineExprs = Array.from(doc.querySelectorAll(".math.inline"));
     for (const el of inlineExprs) {
@@ -43,7 +44,7 @@ hexo.extend.filter.register("after_post_render", function (data) {
         });
     }
 
-    data.content = doc.head.innerHTML + doc.body.innerHTML;
+    data.content = doc.body.innerHTML;
 
     return data;
-})
+});
