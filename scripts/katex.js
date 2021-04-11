@@ -23,7 +23,7 @@ hexo.extend.filter.register("after_render:html", function (result, data) {
 });
 
 hexo.extend.filter.register("after_post_render", function (data) {
-    const html = `<!DOCTYPE html><html><body>${data.content}</body></html>`
+    const html = `<!DOCTYPE html><html><body>${data.content}</body></html>`;
     const doc = new JSDOM(html).window.document;
 
     const inlineExprs = Array.from(doc.querySelectorAll(".math.inline"));
