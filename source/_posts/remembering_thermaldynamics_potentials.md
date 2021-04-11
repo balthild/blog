@@ -26,15 +26,8 @@ $$
 
 而上述四个量之间的关系可以用一张图简明地概括：
 
-```
-        -pV
-   [U]------>[H]
-    |         |
--TS |         | -TS
-    ↓         ↓
-   [F]------>[G]
-        -pV
-```
+<!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJVIl0sWzIsMCwiSCJdLFswLDIsIkYiXSxbMiwyLCJHIl0sWzAsMiwiLVRTIiwyXSxbMCwxLCItcFYiXSxbMSwzLCItVFMiXSxbMiwzLCItcFYiLDJdXQ== -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJVIl0sWzIsMCwiSCJdLFswLDIsIkYiXSxbMiwyLCJHIl0sWzAsMiwiLVRTIiwyXSxbMCwxLCItcFYiXSxbMSwzLCItVFMiXSxbMiwzLCItcFYiLDJdXQ==&embed" width="320" height="280" style="border-radius: 8px; border: none;"></iframe>
 
 它们之间的变换关系叫做<u>勒让德变换</u>。勒让德变换把函数 $f(x)$ 变换为 $f^*(t)$，其中 $t=\dv{f}{x}$，而 $\eval{f^*(t)}_{x=x_0}$ 的值是 $f(x)$ 在 $x_0$ 处切线的纵截距。换言之，勒让德变换把 $f: x \mapsto y$ 的映射变换为 $f^*: \text{slope}\mapsto\text{intercept}$ 的映射。在分析力学中，由<u>拉格朗日量</u>到<u>哈密顿量</u>的变换 $\mathcal{H}(q,p,t)=\sum_i{ p_i\dot{q}_i} - \mathcal{L}(q,\dot{q},t)$ 就是勒让德变换。
 
