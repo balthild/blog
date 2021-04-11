@@ -26,10 +26,15 @@ $$
 
 四个热力学势函数之间的关系可以用一张图简明地概括：
 
-<!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJVIl0sWzIsMCwiSCJdLFswLDIsIkYiXSxbMiwyLCJHIl0sWzAsMiwiLVRTIiwyXSxbMCwxLCItcFYiXSxbMSwzLCItVFMiXSxbMiwzLCItcFYiLDJdXQ== -->
-<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJVIl0sWzIsMCwiSCJdLFswLDIsIkYiXSxbMiwyLCJHIl0sWzAsMiwiLVRTIiwyXSxbMCwxLCItcFYiXSxbMSwzLCItVFMiXSxbMiwzLCItcFYiLDJdXQ==&embed" width="320" height="280" style="border-radius: 8px; border: none;"></iframe>
+$$
+\begin{CD}
+    U @>{-pV}>> H \\
+    @V{-TS}VV @VV{-TS}V \\
+    F @>>{-pV}> G
+\end{CD}
+$$
 
-它们之间的变换关系叫做<u>勒让德变换</u>。勒让德变换把函数 $f(x)$ 变换为 $f^*(t)$，其中 $t=\dv{f}{x}$，而 $\eval{f^*(t)}_{x=x_0}$ 的值是 $f(x)$ 在 $x_0$ 处切线的纵截距。换言之，勒让德变换把 $f: x \mapsto y$ 的映射变换为 $f^*: \text{slope}\mapsto\text{intercept}$ 的映射。在分析力学中，由<u>拉格朗日量</u>到<u>哈密顿量</u>的变换 $\mathcal{H}(q,p,t)=\sum_i{ p_i\dot{q}_i} - \mathcal{L}(q,\dot{q},t)$ 就是勒让德变换。
+它们之间的变换关系叫做<u>勒让德变换</u>。对于函数 $f(x)$，其勒让德变换记为 $f^*(t)$，其中 $t=\dv{f}{x}$，而 $\eval{f^*(t)}_{x=x_0}$ 的值是 $f(x)$ 在 $x_0$ 处切线的纵截距。形象地说，勒让德变换把函数图像上横坐标 $x$ 与纵坐标 $y$ 的映射关系（即这个函数本身）变换成切线的斜率与截距的映射关系。在分析力学中，由<u>拉格朗日量</u>到<u>哈密顿量</u>的变换 $\mathcal{H}(q,p,t)=\sum_i{ p_i\dot{q}_i} - \mathcal{L}(q,\dot{q},t)$ 就是勒让德变换。
 
 内能 $U(S,V)$ 对自变量 $V$ 的勒让德变换为 $U^*(S,p)=pV-U(S,V)$，其中 $p=\qty(\pdv{U}{V})_S$ 是系统的压强。$U^*$ 也是一个热力学势，通常为了计算方便而取它的相反值，定义为系统的焓 $H=-U^*(S,p)=U-pV$。亥姆霍兹自由能同理：$F=-U^*(T,V)=U-TS$，其中 $T=\qty(\pdv{U}{S})_V$ 为系统的热力学温度。
 
@@ -50,4 +55,3 @@ $$
       &= - S \dd T - V \dd p
 \end{aligned}
 $$
-
