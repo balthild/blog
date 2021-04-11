@@ -36,9 +36,6 @@ pandoc:
   meta:
   mathEngine: katex
 
-katex:
-  throw_on_error: false
-
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
