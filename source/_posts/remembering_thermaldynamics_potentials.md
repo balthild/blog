@@ -24,7 +24,7 @@ $$
 \end{aligned}
 $$
 
-而上述四个量之间的关系可以用一张图简明地概括：
+四个热力学势函数之间的关系可以用一张图简明地概括：
 
 <!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJVIl0sWzIsMCwiSCJdLFswLDIsIkYiXSxbMiwyLCJHIl0sWzAsMiwiLVRTIiwyXSxbMCwxLCItcFYiXSxbMSwzLCItVFMiXSxbMiwzLCItcFYiLDJdXQ== -->
 <iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJVIl0sWzIsMCwiSCJdLFswLDIsIkYiXSxbMiwyLCJHIl0sWzAsMiwiLVRTIiwyXSxbMCwxLCItcFYiXSxbMSwzLCItVFMiXSxbMiwzLCItcFYiLDJdXQ==&embed" width="320" height="280" style="border-radius: 8px; border: none;"></iframe>
