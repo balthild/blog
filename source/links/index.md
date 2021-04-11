@@ -8,7 +8,7 @@ title: Friends
 - name: 477's blog~♪
   description: 是人见人爱的可爱 477
   url: https://blog.cn47mp.moe/
-  avatar: https://secure.gravatar.com/avatar/b222c8aeac939a8a07b831de3b63ea5a?s=128
+  avatar: https://cn.gravatar.com/avatar/b222c8aeac939a8a07b831de3b63ea5a?s=128
 
 - name: Alien
   description: 是网络工程 dalao
@@ -28,7 +28,7 @@ title: Friends
 - name: DIYgod
   description: 是前端 dalao
   url: https://diygod.me
-  avatar: https://diygod.me/images/DIYgod.jpg
+  avatar: https://c.disquscdn.com/uploads/users/14379/8595/avatar128.jpg
 
 - name: Kenvix
   description: 是云签到作者 dalao
@@ -49,6 +49,11 @@ title: Friends
   description: 是全能又可爱的狐娘苏卡卡~
   url: https://blog.skk.moe/
   avatar: https://cdn.jsdelivr.net/npm/skx@0.3.7/avatar/128x128.png
+
+- name: yiheng 的小窝
+  description: 是可爱的 yiheng
+  url: https://blog.yiheng.moe/
+  avatar: https://cn.gravatar.com/avatar/374e36d02476e5b018738aa0df1e726f?s=128
 
 - name: 吟梦酱
   description: 是前端 & ACM dalao
