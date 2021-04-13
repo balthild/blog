@@ -58,7 +58,7 @@ const css = new CleanCSS().minify(`
 `).styles;
 
 hexo.extend.tag.register('bookmarks', function (args, content) {
-    const doc = yaml.safeLoad(content);
+    const doc = yaml.load(content);
 
     const items = doc.map(({ name, description, url, avatar }) => `
         <li>

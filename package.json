@@ -3,22 +3,21 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "5.1.1"
+    "version": "5.4.0"
   },
   "dependencies": {
     "hexo": "^5.1.1",
-    "hexo-deployer-git": "^2.1.0",
+    "hexo-deployer-git": "3.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-tag": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-jade": "^0.5.0",
     "hexo-renderer-pandoc": "^0.3.0",
-    "hexo-renderer-stylus": "^2.0.0",
+    "hexo-renderer-pug": "^1.0.0",
     "hexo-server": "^2.0.0",
     "jsdom": "^16.4.0",
     "katex": "^0.13.2",
-    "katex-physics": "^1.0.0"
+    "katex-physics": "^1.0.0",
+    "linkifyjs": "^3.0.0-beta.3"
   }
 }
