@@ -1,15 +1,15 @@
 extends partial/layout
 
 block site_title
-    != page.category + " · " + config.title
+  != page.category + " · " + config.title
 
 block description
-    - var desc = '分类：' + page.category + ' - ' + config.title;
-    meta(name="description", content=desc)
+  - var desc = '分类：' + page.category + ' - ' + config.title;
+  meta(name="description", content=desc)
 
 block content
   .autopagerize_page_element: .content
-    .archive.animated.fadeInDown
+    .archive
       ul.list-with-title
         include mixins
         +postList()

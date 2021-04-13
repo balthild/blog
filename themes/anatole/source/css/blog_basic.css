@@ -70,10 +70,12 @@
   font-family: "Dosis", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
 
+/*
 .content > .post > .post-content > p {
   word-wrap: break-word;
   word-break: break-all;
 }
+*/
 
 #ds-thread,
 #disqus_thread,
