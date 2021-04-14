@@ -31,6 +31,12 @@
   content: "]";
 }
 
+.post-content .footnote-ref,
+.post-content .footnotes li {
+  margin-top: -70px;
+  padding-top: 70px;
+}
+
 .post-content .footnotes li {
   margin-bottom: 0.5em;
 }
