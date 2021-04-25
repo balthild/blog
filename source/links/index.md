@@ -25,6 +25,11 @@ title: Friends
   url: http://blog.awoer.com/
   avatar: https://avatars1.githubusercontent.com/u/13173755?s=128&v=4
 
+- name: 初等記憶體
+  description: 是理工与人文艺术各方面都很厉害的艾老师
+  url: https://axionl.me/
+  avatar: https://avatars.githubusercontent.com/u/8396456?s=128?v=4
+
 - name: DIYgod
   description: 是前端 dalao
   url: https://diygod.me
@@ -41,7 +46,7 @@ title: Friends
   avatar: /images/links/leoleoasd.me.png
 
 - name: NetherCrow CSOLYOO
-  description: 是乌鸦姐姐 
+  description: 是乌鸦姐姐
   url: https://www.utsuho.win/
   avatar: https://cn.gravatar.com/avatar/06c1e9d8debdca6a295868ebd634411d?s=128
 
