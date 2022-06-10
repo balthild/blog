@@ -88,6 +88,6 @@ theme: Anatole
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/balthild/balthild.github.io.git
+  repo: https://github.com/balthild/qaq.cat
   branch: master
   message:
