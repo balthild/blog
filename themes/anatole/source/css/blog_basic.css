@@ -35,13 +35,11 @@
 .post-content .footnotes li {
   margin-top: -70px;
   padding-top: 70px;
-}
-
-.post-content .footnote-ref {
   pointer-events: none;
 }
 
-.post-content .footnote-ref sup {
+.post-content .footnote-ref sup,
+.post-content .footnotes li p {
   pointer-events: all;
 }
 
