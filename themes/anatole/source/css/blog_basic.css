@@ -37,6 +37,14 @@
   padding-top: 70px;
 }
 
+.post-content .footnote-ref {
+  pointer-events: none;
+}
+
+.post-content .footnote-ref sup {
+  pointer-events: all;
+}
+
 .post-content .footnotes li {
   margin-bottom: 0.5em;
 }
