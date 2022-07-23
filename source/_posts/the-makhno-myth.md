@@ -4,7 +4,7 @@ date: 2021-04-12 08:35:28
 tags:
 ---
 
-本文是《国际社会主义评论》第 53 期中的文章 [The Makhno Myth](https://isreview.org/issues/53/makhno.shtml) 的翻译，原作者为 Jason Yanowitz。
+本文是《国际社会主义评论》第 53 期中的文章 [The Makhno Myth](https://isreview.org/issues/53/makhno/) 的翻译，原作者为 Jason Yanowitz。
 
 ----
 
