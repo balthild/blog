@@ -44,15 +44,33 @@ a:hover, a:active {
 
 .content {
   height: auto;
-  float: right;
   width: 60%;
+  margin-left: 40%;
   margin-top: 60px;
+}
+
+.commune {
+  background: #a00000;
+  height: 50vh;
+  position: relative;
+  z-index: 3;
+  margin-left: 40%;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .page-top {
   width: 60%;
-  position: fixed;
+  position: sticky;
   right: 0;
+  left: 40%;
+  top: 0;
   z-index: 3;
   background-color: #fff;
   height: 60px;
@@ -593,8 +611,18 @@ a.btn {
     font-size: 20px;
   }
 
+  .index .sidebar {
+    margin-top: 50vh;
+  }
+
+  .commune {
+    width: 100%;
+    margin-left: 0;
+  }
+
   .page-top {
     width: 100%;
+    left: 0;
   }
 
   .post-title h3 {
@@ -603,6 +631,7 @@ a.btn {
 
   .content {
     margin-top: 420px;
+    margin-left: 0;
     width: 100%;
     z-index: 2;
     position: absolute;

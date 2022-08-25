@@ -1,0 +1,19 @@
+doctype
+html(lang="zh-CN")
+  head
+    include head
+
+  body.index
+    include sidebar
+    .main
+      .commune
+        span
+          | visca la
+          br
+          | Catalunya
+          | Revolucion&#xE0;ria
+      include nav
+
+      block content
+
+    script(src= url_for('js/main.js'))
