@@ -9,7 +9,7 @@ description:
 keywords:
 author: Balthild
 language: zh-cn
-timezone: Asia/Shanghai
+timezone: America/Chicago
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -88,6 +88,6 @@ theme: Anatole
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/balthild/qaq.cat
-  branch: master
+  repo: https://github.com/balthild/balthild.github.io
+  branch: main
   message:
